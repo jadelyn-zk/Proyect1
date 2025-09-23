@@ -4,23 +4,29 @@ import java.util.Scanner;
 
 public class Exercise04 {
 
-	
-	
 	public static void main(String[] args) {
-	
-	
-	//Variable of the number that were typing in
-		int number;
-	// Asking for the number
-		System.out.println("Introduce un número:");
-	//We create the Scanner
-		Scanner reader = new Scanner (System.in) ;
-	//Then we read the number
-		number = reader.nextInt();
-	//Now we know the number and we can print it
-		System.out.println("Tu número es "+ (number));
-	//Finally, we close the Scanner we've created
-		reader.close();
-	}
+		
+		//We create a new Scanner
+		Scanner sc = new Scanner(System.in);
+			
+		//We create the variables, the 2 different grades.
+		int grade1; 
+		int grade2;
+				
+		//We ask for the first grade
+		System.out.println("Introduce una nota: ");
+		//And we read It
+		grade2 = sc.nextInt(); 
+		//Then we ask for the second grade
+		System.out.println("Introduce otra nota: ");
+		//And we read it too
+		grade1 = sc.nextInt(); 
+		
+		//We print the average of the grades
+		System.out.println("Tu nota media es: " + ((grade2+grade1)/2));
+		
+		//Finally, we close the scanner
+		sc.close();
 
+	}
 }
