@@ -20,19 +20,11 @@ public class Excercise10 {
 	        number = sc.nextInt();
 
 	        // Check if the number is multiple of 2
-	        if (number % 2 == 0) {
-	            par = true; 
-	        } else {
-	            par = false;
-	        }
+	        par = number % 2 == 0;
 
 	        // Print the result based on the value of 'par'
-	        if (par) {
-	            System.out.println("El número introducido es par.");
-	        } else {
-	            System.out.println("El número introducido es impar.");
-	        }
-
+	            System.out.println("¿El número introducido es par?" +  par );
+	  
 	        // Finally, close the scanner
 	        sc.close();
 
