@@ -20,18 +20,12 @@ public class Exercise09 {
         age = sc.nextInt();
 
         // Check if the age is 18 or older
-        if (age >= 18) {
-            mayority = true; // If age is 18 or older, the user is of legal age
-        } else {
-            mayority = false; // If age is less than 18, the user is not of legal age
-        }
+        mayority = age>= 18;
 
-        // Print the result based on the value of 'activo'
-        if (mayority) {
-            System.out.println("El usuario es mayor de edad.");
-        } else {
-            System.out.println("El usuario no es mayor de edad.");
-        }
+        // Print the result based on the value of 'mayority'
+     
+            System.out.println("¿El usuario es mayor de edad?" +  mayority);
+            
 
         // Finally, close the scanner
         sc.close();
