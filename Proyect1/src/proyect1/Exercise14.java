@@ -12,8 +12,8 @@ public class Exercise14 {
 		int grade2;
 		int grade3;
 		// And for the two different results.
-		double graderecord;
-		int reportcard;
+		double gradeRecord;
+		int reportCard;
 		
 		// We ask for the first grade
 		System.out.println("Introduce la nota del primer trimestre: ");
@@ -31,13 +31,14 @@ public class Exercise14 {
 		grade3 = sc.nextInt();
 
 		// We make the operations for both of the results, creating the variables for the two different final grades.
-		reportcard = (grade1+grade2+grade3)/3;
-		graderecord = (double) (grade1+grade2+grade3)/3;
+		gradeRecord = (double) (grade1+grade2+grade3)/3;
+		reportCard = (int) gradeRecord ;
 		
 		// And we print both results
-		System.out.println("La nota media de tu boletín de calificaciones es: " + reportcard);
-		System.out.println("La nota media de tu boletín de calificaciones es: " + graderecord);
+		System.out.println("La nota media de tu boletín de calificaciones es: " + reportCard);
+		System.out.println("La nota media de tu expediente académico es: " + gradeRecord);
 
+		//Close the scanner
 		sc.close();
 	}
 

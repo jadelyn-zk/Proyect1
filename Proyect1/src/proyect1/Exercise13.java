@@ -29,12 +29,8 @@ public class Exercise13 {
 		GoOut = (!Raining && HomeworkDone) || GoToLibrary;
 		System.out.println("¿Puedes salir a la calle?" +  GoOut );
 		
-		
-				
-				
-				
-				
-
+						
+		//Close the scanner
 		sc.close();
 	}
 

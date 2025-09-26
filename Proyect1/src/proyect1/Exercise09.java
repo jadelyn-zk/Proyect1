@@ -23,10 +23,8 @@ public class Exercise09 {
         mayority = age>= 18;
 
         // Print the result based on the value of 'mayority'
-     
             System.out.println("¿El usuario es mayor de edad?" +  mayority);
             
-
         // Finally, close the scanner
         sc.close();
     }

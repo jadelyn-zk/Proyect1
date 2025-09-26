@@ -17,8 +17,10 @@ public class Exercise11 {
         // Read the number
         euro = sc.nextInt();
         
+        //Print the results in pesetas
         System.out.println("El cambio a pesetas es: " + euro*166 );
         
+		//Close the scanner
         sc.close();
         }
 

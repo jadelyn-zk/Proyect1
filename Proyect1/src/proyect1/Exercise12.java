@@ -28,7 +28,9 @@ public class Exercise12 {
         //Print the operation
         System.out.println("Resultan en " + apples*2.35 + "€ de vender manzanas" );
         System.out.println("Y " + pears*1.95 + "€ de vender peras" );
-		sc.close();
+		
+		//Close the scanner
+        sc.close();
 	}
 
 }
